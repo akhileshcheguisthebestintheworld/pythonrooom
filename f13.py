@@ -13,6 +13,7 @@ while year < 2015:
 	else:
 		if date == 30:
 			month = month + 1
+			date = 1
 		else:
 			date = date + 1
 		
