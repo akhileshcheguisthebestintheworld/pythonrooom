@@ -1,8 +1,8 @@
 # author: akhileshcheguisthebestintheworld
-answer =
+
 thing = "an irrational number"
-input("What is pie equal to?")
+answer = input("What is pie equal to?")
 if answer != thing:
-	print "WWWWWWRRRRRROOOOOONNNNNNNGGGGG!"
+	print "BWAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!"
 else:
 	print "CCCCCOOOOOOOOORRRRRRRREEEEEEEECCCCCCTTTTTT!"
