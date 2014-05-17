@@ -1,4 +1,5 @@
 # author: akhileshcheguisthebestintheworld
+# Total number of twin primes from 1 to 1000
 total = 0
 LastPrime = 2
 total2 = 0 
