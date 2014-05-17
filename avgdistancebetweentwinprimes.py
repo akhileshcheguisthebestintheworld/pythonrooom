@@ -2,7 +2,9 @@
 # Total number of twin primes from 1 to 1000
 total = 0
 LastPrime = 2
-total2 = 0 
+total2 = 0
+total3 = 0
+total4 = 0
 d = 0
 p1 = 2
 p2 = 3
