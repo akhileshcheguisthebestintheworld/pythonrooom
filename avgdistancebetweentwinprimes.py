@@ -3,8 +3,8 @@
 total = 0
 LastPrime = 2
 total2 = 0
-total3 = 0
-total4 = 0
+b = 0
+a = 0
 d = 0
 p1 = 2
 p2 = 3
