@@ -4,7 +4,7 @@
 total=0
 LastPrime=2
 total2=0
-for n in range(2,998):
+for n in range(3,998):
 	tests=range(2,n-1)
 	prime=True
 	for t in tests:
