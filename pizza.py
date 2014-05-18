@@ -1,1 +1,10 @@
 # author: akhileshcheguisthebestintheworld
+def isPrime(n):
+	tests = range(2,n/2)
+	for test in tests:
+		if n%teset == 0:
+			return False
+	return True
+for n in range(2,1000):
+	if isPrime(n) and isPrime(n+2):
+		print str(n) + " and " + str(n+2)
