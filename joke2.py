@@ -1,21 +1,7 @@
 # author: akhileshcheguisthebestintheworld
-total = 0
-
-date = 1
-month = 1
-year = 1900
-while year < 2015:
-	total = total + 1
-	
-	if month == 12 and date = 31:
-		year = year + 1
-		month = 1
-		date = 1
-	else:
-		if date == 30:
-			month = month + 1
-			date = 1
-		else:
-			date = date + 1
-		
-print total		
+answer = input("What is the largest rodent in the world that has no hair on its body?")
+if answer == "A hippopota-mouse.":
+	input("You are correct!")
+else:
+	input("Sorry, you are wrong. Try again. What is the largest rodent in the world that has no hair on its body?")
+	if a
