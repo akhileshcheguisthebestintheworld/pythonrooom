@@ -19,5 +19,3 @@ for n in range(2,1001):
 		if total == 2:
 			total2 = total2 + 1
 		LastPrime = n
-		
-print total2
