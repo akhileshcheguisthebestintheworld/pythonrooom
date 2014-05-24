@@ -1,7 +1,6 @@
-answer = input("What do you want n to be?")
-if answer > 100:
-	return True
-if answer < 100:
-	return False
-if answer == 100:
-	return False
+#add two digits
+
+answer = int(input("What do you want a to be?"))
+answer2 = int(input("What do you want b to be?"))
+answer3 = answer + answer2
+print answer3
