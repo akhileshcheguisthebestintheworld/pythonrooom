@@ -1,3 +1,4 @@
+#determine which is greater out of three numbers you give.
 a = int(input("What do you want a to be?"))
 b = int(input("What do you want b to be?"))
 c = int(input("What do you want c to be?"))
