@@ -15,15 +15,14 @@
 		return False
 	def add (a,b):
 		return a
-def subtract(a,b):
-	return a
-def multiply(a,b):
-	return a
-def divide(a,b):
-	return a
-def power(a,b):
-	return a
-
+	def subtract(a,b):
+		return a
+	def multiply(a,b):
+		return a
+	def divide(a,b):
+		return a
+	def power(a,b):
+		return a
 def absoluteValue(a):
 	return a
 
