@@ -23,7 +23,7 @@ def divide(a,b):
 	return a
 def power(a,b):
 	return a
-def absolutValue(a):
+def absoluteValue(a):
 	return a
 
 challenge
