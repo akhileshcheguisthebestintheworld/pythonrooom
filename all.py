@@ -33,3 +33,10 @@ if answer < 100:
 	print "No"
 if answer == 100:
 	print "equal"
+	
+#multiply two digits
+
+answer = int(input("What do you want a to be?"))
+answer2 = int(input("What do you want b to be?"))
+answer3 = answer*answer2
+print answer3	
