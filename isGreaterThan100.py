@@ -1,13 +1,7 @@
-def isGreaterthan100:
-	if n >100:
-		return True
-	if n < 100:
-		return False
-	if n == 100:
-		return False
-if n >100:
-	n()
-if n < 100:
-	n()
-if n == 100:
-	n()
+answer = input("What do you want n to be?")
+if answer > 100:
+	return True
+if answer < 100:
+	return False
+if answer == 100:
+	return False
