@@ -1,4 +1,4 @@
-# author: akhileshcheguisthebestintheworld
+#identify whether a number given is a palindrome or not
 n=int(input("What do you want a to be?"))
 t=0
 r=0
