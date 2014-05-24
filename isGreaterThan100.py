@@ -1,35 +1,10 @@
 # author: akhileshcheguisthebestintheworld
+answer = input("What do you want n to be?") 
 def isGreaterThan100(n):
-	return False
-
-def whichIsGreater(a,b):
-	if a >b:
-		return a 
-	else:
-		return b
-def whichIsGreater(a,b,c):
-	return a
-def whichIsSmaller(a,b,c):
-	return a
-def divisibleBy(a,b):
-	return False
-def add (a,b):
-	return a
-def subtract(a,b):
-	return a
-def multiply(a,b):
-	return a
-def divide(a,b):
-	return a
-def power(a,b):
-	return a
-def absolutValue(a):
-	return a
-
-challenge
-
-def palindromeNumber(n):
-	return False
-
-def sumOFDigits(m):
-	return 0
+	if n > 100:
+		print "Yes"
+	if n < 100:
+		return "No"
+	if n == 100:
+		return "No"
+	
