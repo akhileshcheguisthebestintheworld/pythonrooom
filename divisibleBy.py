@@ -1,35 +1,9 @@
-# author: akhileshcheguisthebestintheworld
-def isGreaterThan100(n):
-	return False
-
-def whichIsGreater(a,b):
-	if a >b:
-		return a 
-	else:
-		return b
-def whichIsGreater(a,b,c):
-	return a
-def whichIsSmaller(a,b,c):
-	return a
-def divisibleBy(a,b):
-	return False
-def add (a,b):
-	return a
-def subtract(a,b):
-	return a
-def multiply(a,b):
-	return a
-def divide(a,b):
-	return a
-def power(a,b):
-	return a
-def absoluteValue(a):
-	return a
-
-challenge
-
-def palindromeNumber(n):
-	return False
-
-def sumOFDigits(m):
-	return 0
+# find if one number is divisible by the other or not
+a = int(input("What do you want a to be?"))
+b = int(input("What do you want b to be?"))
+if a % b == 0:
+	print "Yes"
+if b % a == 0:
+	print "Yes"
+else:
+	print "No"
