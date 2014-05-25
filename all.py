@@ -128,10 +128,11 @@ if x == 7:
 if x == 8:
 	least(a,b,c)
 if x == 9:
-
+	divisible(a,b)
 if x == 10:
-
+	greaterThan100(a)
 if x == 11:
+	absoluteValue(a)
 
 
 
