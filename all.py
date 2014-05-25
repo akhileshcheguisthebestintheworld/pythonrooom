@@ -113,7 +113,7 @@ def palindrome(a):
 def sumOfDigits(a):
 	b=0
 	c=0
-	while n > 0:
+	while a > 0:
 		b = a % 10
 		a = a / 10
 		c = c + b
