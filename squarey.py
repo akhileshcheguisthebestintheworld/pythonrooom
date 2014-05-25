@@ -1,13 +1,25 @@
-# author: akhileshcheguisthebestintheworld
-a=0
-b=1
-c=0
-total=0
-
-while b < 1000000:
-	c=b
-	b = a + b
-	a=c
-	if a % 2 == 0:
-		total = total + a
-print total
+import turtle
+t=turtle.Turtle()
+t.backward(50)
+t.right(90)
+t.backward(50)
+t.right(90)
+t.backward(50)
+t.right(90)
+t.backward(50)
+t.left(60)
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.left(60)
+t.backward(50)
+t.right(90)
+t.backward(50)
+t.right(90)
+t.backward(50)
+t.right(90)
+t.backward(50)
