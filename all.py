@@ -10,13 +10,11 @@ def add(a,b):
 	print d
 # subtract two numbers
 def subtract(a,b):
-	answer = int(input("What do you want a to be?"))
-	answer2 = int(input("What do you want b to be?"))
-	if answer > answer2:
-		answer3 = answer-answer2
-	if answer2 > answer:
-		answer3 = answer2-answer
-	print answer3
+	if a > b:
+		d = a-b
+	if b > a:
+		d = b-a
+	print d
 # divide two numbers
 def divide(a,b):
 	if a > b:
@@ -47,12 +45,12 @@ def greaterThan100(a):
 #multiply two digits
 def multiply(a,b):
 	d = a*b
-	print c	
+	print d	
 
 #power 2 numbers
 def power(a,b):
 	d = a**b
-	print answer3
+	print d
 
 #determine which of two numbers that you enter is greater
 def greater(a,b):
@@ -92,12 +90,26 @@ def greatest(a,b,c):
 		print c	
 #find the absolute value of a number
 def absoluteValue(a):
-	a = int(input("What do you want a to be?"))
 	if a >0:
 		print a
 	if a < 0:
 		b = -a
-		print b		
+		print b
+
+#identify whether a number given is a palindrome or not
+def palindrome(a):
+	b=0
+	c=0
+	d=a
+	while a > 0:
+		b = a % 10
+		a = a / 10
+		c = c * 10 + b
+	if c == d:
+		print "palindrome"
+	else:
+		print "not a palindrome"		
+
 print "Which operation do you want?"
 print "1: Addition"
 print "2: Subtraction"
@@ -110,6 +122,7 @@ print "8: Least of all of the numbers"
 print "9: Divisible by the other number"
 print "10: Greater than 100"
 print "11: Absolute value"
+print "12: Palindrome"
 x = int(input("What operation do you want to do?"))
 if x == 1:
 	add(a,b)
@@ -133,7 +146,10 @@ if x == 10:
 	greaterThan100(a)
 if x == 11:
 	absoluteValue(a)
-
+if x == 12:
+	palindrome(a)
+if x == 13:
+	
 
 
 
