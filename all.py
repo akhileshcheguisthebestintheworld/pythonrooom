@@ -109,6 +109,15 @@ def palindrome(a):
 		print "palindrome"
 	else:
 		print "not a palindrome"		
+#sum of digits in a number
+def sumOfDigits(a)
+b=0
+c=0
+while n > 0:
+	b = a % 10
+	a = a / 10
+	c = c + b
+print c	
 
 print "Which operation do you want?"
 print "1: Addition"
@@ -123,6 +132,8 @@ print "9: Divisible by the other number"
 print "10: Greater than 100"
 print "11: Absolute value"
 print "12: Palindrome"
+print "13: Sum of Digits in a number"
+
 x = int(input("What operation do you want to do?"))
 if x == 1:
 	add(a,b)
@@ -149,7 +160,7 @@ if x == 11:
 if x == 12:
 	palindrome(a)
 if x == 13:
-	
+	sumOfDigits(a)
 
 
 
