@@ -1,4 +1,5 @@
 # Selection of Maths Operations
+print "Math Operations"
 a=int(input("What do you want the first number to be?"))
 b = int(input("What do you want the second number to be?"))
 c = int(input("What do you want the third number to be?"))
@@ -81,3 +82,29 @@ def greatest(a,b,c):
 		print c
 	if c > b > a:
 		print c	
+print "Which operation do you want?"
+print "1: Addition"
+print "2: Subtraction"
+print "3: Multiplication"
+print "4: Division"
+print "5: Power"
+print "6: Greater of the two numbers"
+print "7: Greatest of all of the numbers"
+print "8: Least of all of the numbers"
+print "9: Divisible by the other number"
+print "10: Greater than 100"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
