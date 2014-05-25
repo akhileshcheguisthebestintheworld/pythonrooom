@@ -8,7 +8,15 @@ c = int(input("What do you want the third number to be?"))
 def add(a,b):
 	d = a + b
 	print d
-
+# subtract two numbers
+def subtract(a,b):
+	answer = int(input("What do you want a to be?"))
+	answer2 = int(input("What do you want b to be?"))
+	if answer > answer2:
+		answer3 = answer-answer2
+	if answer2 > answer:
+		answer3 = answer2-answer
+	print answer3
 # divide two numbers
 def divide(a,b):
 	if a > b:
@@ -104,15 +112,26 @@ print "10: Greater than 100"
 print "11: Absolute value"
 x = int(input("What operation do you want to do?"))
 if x == 1:
-	
+	add(a,b)
+if x == 2:
+	subtract(a,b)
+if x == 3:
+	multiply(a,b)
+if x == 4:
+	divide(a,b)
+if x == 5:
+	power(a,b)
+if x == 6:
+	greater(a,b)
+if x == 7:
+	greatest(a,b,c)
+if x == 8:
+	least(a,b,c)
+if x == 9:
 
+if x == 10:
 
-
-
-
-
-
-
+if x == 11:
 
 
 
