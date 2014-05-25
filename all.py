@@ -82,6 +82,14 @@ def greatest(a,b,c):
 		print c
 	if c > b > a:
 		print c	
+#find the absolute value of a number
+def absoluteValue(a):
+	a = int(input("What do you want a to be?"))
+	if a >0:
+		print a
+	if a < 0:
+		b = -a
+		print b		
 print "Which operation do you want?"
 print "1: Addition"
 print "2: Subtraction"
@@ -93,7 +101,10 @@ print "7: Greatest of all of the numbers"
 print "8: Least of all of the numbers"
 print "9: Divisible by the other number"
 print "10: Greater than 100"
-
+print "11: Absolute value"
+x = int(input("What operation do you want to do?"))
+if x == 1:
+	
 
 
 
