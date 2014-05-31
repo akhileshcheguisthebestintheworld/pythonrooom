@@ -161,8 +161,3 @@ if x == 12:
 	palindrome(a)
 if x == 13:
 	sumOfDigits(a)
-
-
-
-
-
