@@ -2,7 +2,7 @@ import turtle
 t=turtle.Turtle()
 colors=["red","blue","green","orange"]
 distances=range(10,100)
-t.speed(1)
+t.speed(1000000000000000)
 for distance in distances:
 	t.left(10)
 	for c in colors:
