@@ -19,6 +19,6 @@ for distance in distances:
 		t.forward(diagonal)
 		t.left(180)
 		t.forward(diagonal)
-		t.left(170)
-		distance = distance + 1
+	t.left(170)
+		
 	
