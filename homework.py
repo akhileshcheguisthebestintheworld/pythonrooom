@@ -1,11 +1,11 @@
 # author: akhileshcheguisthebestintheworld
 import random
-pictures = 0
-people=int(input("How many people are there?"))
+pictures = 1
 flies = int(input("How many flies are in the room?"))
-if random.randint(1,1000) < flies:
-	print "Someone is blinking."
-	pictures = pictures + 1
-else:
-	print "Nobody is blinking."
-print pictures
+for n in random.randint(1,1000):
+	while n < flies:
+		print "Nobody is blinking."
+	while n > flies:
+		print "Somebody is blinking."
+		pictures = pictures + 1
+print pictures		
