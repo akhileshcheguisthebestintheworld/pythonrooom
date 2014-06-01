@@ -1,12 +1,13 @@
-# author: akhileshcheguisthebestintheworld
+
+# Print number of pictures till noone is blinking in a room full of flies
+
 import random
 pictures = 1
 flies = int(input("How many flies are in the room?"))
-for n in random.randint(1,10):
-	while flies > n:
-		print "Nobody is blinking."
-	while flies < n:
-		print "Somebody is blinking."
-		pictures = pictures + 1
+x = random.randint(1,1000)
+
+while x < flies:
+	pictures = pictures + 1
+	x = random.randint(1,1000)
 		
-print pictures		
+print pictures
