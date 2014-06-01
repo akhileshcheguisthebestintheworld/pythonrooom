@@ -2,10 +2,11 @@
 import random
 pictures = 1
 flies = int(input("How many flies are in the room?"))
-for n in random.randint(1,1000):
-	while n < flies:
+for n in random.randint(1,10):
+	while flies > n:
 		print "Nobody is blinking."
-	while n > flies:
+	while flies < n:
 		print "Somebody is blinking."
 		pictures = pictures + 1
+		
 print pictures		
