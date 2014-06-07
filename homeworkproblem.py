@@ -1,14 +1,13 @@
 word = input("Speak, human.")
 length = len(word)
+counter = 0
 for i in range(0,(length/2)):
 	if word[i] == word [-i-1]:
-		return True
-		palindrome = 1
-	
+		counter = counter + 1
+		
 	else:
-		return False
-		palindrome = 0
-if palindrome == 0:
-	print "Not a palindrome"
-else:
+		print "Not a palindrome"
+		counter = counter - length
+		break		
+if counter > 0:
 	print "palindrome"
