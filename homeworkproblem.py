@@ -1,3 +1,5 @@
+#figure if a word is a palindrome or not
+
 word = input("Speak, human.")
 length = len(word)
 counter = 0
