@@ -1,4 +1,6 @@
-games= ["playing basketball", "playing piano", "playing monopoly"]
-foods= ["pasta","pizza","chicken","rice"]
-favorites = games + foods
-print favorites
+buildings = 3
+ninja1s = 25
+tunnels = 2
+ninja2s = 40
+ninjas = ninja1s * buildings + ninja2s * tunnels
+print ninjas
